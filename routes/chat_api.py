@@ -53,7 +53,6 @@ def openai_completion():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    chat_logs = ChatLogs.query.all()
 
     return jsonify({"completion": completion}), 200
 
