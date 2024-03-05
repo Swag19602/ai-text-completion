@@ -1,9 +1,9 @@
 ## Running the Flask Application
 - Clone the Repository:
-    git clone <repository-url>
+    git clone repository-url
 
 - Install Dependencies:
-    cd <repository-directory>
+    cd repository-directory
     pip install -r requirements.txt
 
 - Set Environment Variables:
@@ -12,7 +12,7 @@
     makefile
     Copy code
     DB_URI=sqlite:///openai_logs.db
-    OPENAI_API_KEY=<your-openai-api-key>
+    OPENAI_API_KEY=your-openai-api-key
 
 - Run the Application:
     python app.py
